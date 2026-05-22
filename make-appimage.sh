@@ -16,7 +16,7 @@ export DEPLOY_VULKAN=1
 export APPDIR="${APPDIR:-$PWD/AppDir}"
 
 # Deploy dependencies
-quick-sharun /usr/bin/datcord /usr/lib/datcord
+quick-sharun /usr/bin/datcord /usr/lib/datcord /usr/lib/libappindicator3.so*
 
 # Additional changes can be done in between here
 # Fix Neutron/Datcord launch-app infinite relaunch loop:

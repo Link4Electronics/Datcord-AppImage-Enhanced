@@ -13,6 +13,7 @@ export DESKTOP=/usr/share/applications/datcord.desktop
 export STARTUPWMCLASS=datcord
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-3.0
+export APPDIR="${APPDIR:-$PWD/AppDir}"
 
 # Deploy dependencies
 quick-sharun /usr/bin/datcord /usr/lib/datcord

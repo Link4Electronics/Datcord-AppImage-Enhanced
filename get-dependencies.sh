@@ -7,9 +7,8 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-   libappindicator-gtk3 \
-   libnotify            \
-   xdg-desktop-portal
+     libnotify          \
+     xdg-desktop-portal
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
